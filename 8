@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TP N10</title>
+</head>
+<body>
+    <h1>Dis de los meses del año</h1>
+    <?php
+$DiasPorMes = [
+    "Enero" => 31,
+    "Febrero" => 28,
+    "Marzo" => 31,
+    "Abril" => 30,
+    "Mayo" => 31,
+    "Junio" => 30,
+    "Julio" => 31,
+    "Agosto" => 31,
+    "Septiembre" => 30,
+    "Octubre" => 31,
+    "Noviembre" => 30,
+    "Diciembre" => 31,
+
+];
+
+foreach ($DiasPorMes as $mes => $dias) {
+    echo "$mes tiene $dias dias ". "<br>";
+}
+?>
+</body>
+</html>
+
+
+
+
