@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TP N10</title>
+</head>
+<body>
+    <h1>Clave de usuario</h1>
+    <?php
+$usuarios = [
+    "usuario1" => "clave123",
+    "usuario2" => "password456",
+    "usuario3" => "qwerty789",
+    "usuario4" => "abcde12345",
+    "usuario5" => "pass6789"
+];
+
+foreach ($usuarios as $nombre => $clave) {
+    echo "Clave de acceso de " . $nombre . " es: " . $clave . "<br>";
+}
+?>
+</body>
+</html>
+
+
+
+
